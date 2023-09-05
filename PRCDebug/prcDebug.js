@@ -4,8 +4,6 @@ export default function prcDebug(msg, conteudo){
     const diretorio = "C:/TEMP/"
 
     const verificaDiretorio = () => {
-        
-    
         if (!fs.existsSync(diretorio)){
             fs.mkdir(diretorio, (err) => {
                 if (err){
